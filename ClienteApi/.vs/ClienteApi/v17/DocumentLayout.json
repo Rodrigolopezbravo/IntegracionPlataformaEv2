@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Proyectos y Cursos\\Integracion de plataforma\\ClienteApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|d:\\proyectos y cursos\\integracion de plataforma\\clienteapi\\clienteapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|solutionrelative:clienteapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|d:\\proyectos y cursos\\integracion de plataforma\\clienteapi\\clienteapi\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|solutionrelative:clienteapi\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|d:\\proyectos y cursos\\integracion de plataforma\\clienteapi\\clienteapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|solutionrelative:clienteapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Proyectos y Cursos\\Integracion de plataforma\\ClienteApi\\ClienteApi\\Program.cs",
+              "RelativeDocumentMoniker": "ClienteApi\\Program.cs",
+              "ToolTip": "D:\\Proyectos y Cursos\\Integracion de plataforma\\ClienteApi\\ClienteApi\\Program.cs",
+              "RelativeToolTip": "ClienteApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T23:17:07.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "D:\\Proyectos y Cursos\\Integracion de plataforma\\ClienteApi\\ClienteApi\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "ClienteApi\\Controllers\\ProductosController.cs",
+              "ToolTip": "D:\\Proyectos y Cursos\\Integracion de plataforma\\ClienteApi\\ClienteApi\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "ClienteApi\\Controllers\\ProductosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T23:10:28.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "D:\\Proyectos y Cursos\\Integracion de plataforma\\ClienteApi\\ClienteApi\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "ClienteApi\\Controllers\\ClientesController.cs",
+              "ToolTip": "D:\\Proyectos y Cursos\\Integracion de plataforma\\ClienteApi\\ClienteApi\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "ClienteApi\\Controllers\\ClientesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T23:05:26.173Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

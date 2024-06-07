@@ -1,0 +1,13 @@
+# Clientes API
+curl -X GET http://localhost:5000/api/clientes
+curl -X GET http://localhost:5000/api/clientes/1
+curl -X POST -H "Content-Type: application/json" -d '{"name":"Nuevo cliente","email":"nuevo@mail.com"}' http://localhost:5000/api/clientes
+curl -X PUT -H "Content-Type: application/json" -d '{"name":"Cliente actualizado","email":"nuevo@mail.com"}' http://localhost:5000/api/clientes/1
+curl -X DELETE http://localhost:5000/api/clientes/1
+
+# Productos API
+curl -X GET http://localhost:5001/api/productos
+curl -X GET http://localhost:5001/api/productos/1
+curl -X POST -H "Content-Type: application/json" -d '{"name":"Nuevo Producto","price":100}' http://localhost:5001/api/productos
+curl -X PUT -H "Content-Type: application/json" -d '{"name":"Producto Actualizado","price":150}' http://localhost:5001/api/productos/1
+curl -X DELETE http://localhost:5001/api/productos/1
