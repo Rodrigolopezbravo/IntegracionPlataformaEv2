@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pedido</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Formulario de Pedido</h1>
+
+    <!-- Formulario para agregar cliente -->
+    <h2>Agregar Cliente</h2>
+    <form id="clienteForm">
+        <label for="nombreCliente">Nombre:</label>
+        <input type="text" id="nombreCliente" required>
+        <label for="emailCliente">Email:</label>
+        <input type="email" id="emailCliente" required>
+        <button type="submit">Agregar Cliente</button>
+    </form>
+
+    <!-- Lista de Productos disponibles -->
+    <h2>Lista de Productos</h2>
+    <ul id="listaProductos"></ul>
+
+    <!-- Formulario para realizar pedido -->
+    <h2>Realizar Pedido</h2>
+    <form id="pedidoForm">
+        <label for="producto">Producto:</label>
+        <select id="producto" required>
+            <!-- Options serán generados dinámicamente por JavaScript -->
+        </select>
+        <label for="metodoEnvio">Método de Envío:</label>
+        <select id="metodoEnvio" required>
+            <option value="despacho">Despacho</option>
+            <option value="retiro">Retiro</option>
+        </select>
+        <div id="detallesDespacho" style="display: none;">
+            <label for="direccionDespacho">Dirección de Despacho:</label>
+            <input type="text" id="direccionDespacho">
+            <label for="fechaDespacho">Fecha Estimada de Despacho:</label>
+            <input type="date" id="fechaDespacho">
+        </div>
+        <div id="detallesRetiro" style="display: none;">
+            <label for="fechaRetiro">Fecha de Retiro:</label>
+            <input type="date" id="fechaRetiro">
+            <label for="direccionRetiro">Dirección de Retiro:</label>
+            <input type="text" id="direccionRetiro">
+        </div>
+        <button type="submit">Finalizar Pedido</button>
+    </form>
+
+    <!-- Detalle del Pedido -->
+    <div id="detallePedido" style="display: none;">
+        <h2>Detalle del Pedido</h2>
+        <p>Cliente: <span id="detalleCliente"></span></p>
+        <p>Producto: <span id="detalleProducto"></span></p>
+        <p>Método de Envío: <span id="detalleEnvio"></span></p>
+        <p>Dirección: <span id="detalleDireccion"></span></p>
+        <p>Fecha: <span id="detalleFecha"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
