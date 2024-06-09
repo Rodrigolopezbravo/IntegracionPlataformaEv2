@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RrGa8jLIias=",
+  "dgSpecHash": "3aeUXUu+2LU=",
   "success": true,
-  "projectFilePath": "D:\\Proyectos y Cursos\\Integracion de plataforma\\ClienteApi\\ClienteApi\\ClienteApi.csproj",
+  "projectFilePath": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\ClienteApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Black\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Black\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

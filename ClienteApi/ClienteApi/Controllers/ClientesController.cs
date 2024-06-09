@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
+using ClienteApi.Models;
 
-namespace CustomerApi.Controllers
+namespace ClienteApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -10,9 +11,9 @@ namespace CustomerApi.Controllers
     {
         private static IList<Cliente> clientes = new List<Cliente>
         {
-            new Cliente { Id = 1, Name = "Rodrigo Lopez", Email = "rodrigolopez@duocuc.cl" },
-            new Cliente { Id = 2, Name = "Nicolas Chavez", Email = "nicolaschavez@duocuc.cl" },
-            new Cliente { Id = 3, Name = "Felipe Millan", Email = "felipemillan@duocuc.cl" }
+            new Cliente { Id = 1, Name = "Rodrigo Lopez", Email = "rodrigolopez@duocuc.cl", Direction = "Duoc 1"},
+            new Cliente { Id = 2, Name = "Nicolas Chavez", Email = "nicolaschavez@duocuc.cl", Direction = "Duoc 2" },
+            new Cliente { Id = 3, Name = "Felipe Millan", Email = "felipemillan@duocuc.cl", Direction = "Duoc 3" }
         };
 
         [HttpGet]
@@ -37,7 +38,7 @@ namespace CustomerApi.Controllers
         {
             if (cliente == null)
             {
-                return BadRequest("Cliente nulo.");
+                return BadRequest("Cliente nulo");
             }
             cliente.Id = clientes.Max(c => c.Id) + 1;
             clientes.Add(cliente);
@@ -49,7 +50,7 @@ namespace CustomerApi.Controllers
         {
             if (cliente == null)
             {
-                return BadRequest("Cliente nulo.");
+                return BadRequest("Cliente nulo");
             }
 
             var existeCliente = clientes.FirstOrDefault(c => c.Id == id);
@@ -75,10 +76,5 @@ namespace CustomerApi.Controllers
         }
     }
 
-    public class Cliente
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Email { get; set; }
-    }
+
 }

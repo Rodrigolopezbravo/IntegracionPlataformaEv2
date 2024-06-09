@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
+using ClienteApi.Models;
 
 namespace ProductoApi.Controllers
 {
@@ -10,9 +11,9 @@ namespace ProductoApi.Controllers
     {
         private static IList<Producto> productos = new List<Producto>
         {
-            new Producto { Id = 1, Name = "PC", Price = 1200000 },
-            new Producto { Id = 2, Name = "Celular", Price = 500000 },
-            new Producto { Id = 3, Name = "Notebook", Price = 800000 }
+            new Producto { Id = 1, Name = "Herramienta1", Price = 200000, Stock = 4 },
+            new Producto { Id = 2, Name = "Herramienta2", Price = 500000, Stock = 20 },
+            new Producto { Id = 3, Name = "Herramienta3", Price = 150000, Stock = 35 }
 
         };
 
@@ -38,7 +39,7 @@ namespace ProductoApi.Controllers
         {
             if (producto == null)
             {
-                return BadRequest("Producto nulo.");
+                return BadRequest("Producto nulo");
             }
             producto.Id = productos.Max(p => p.Id) + 1;
             productos.Add(producto);
@@ -50,7 +51,7 @@ namespace ProductoApi.Controllers
         {
             if (producto == null)
             {
-                return BadRequest("Producto nulo.");
+                return BadRequest("Producto nulo");
             }
 
             var existeProducto = productos.FirstOrDefault(p => p.Id == id);
@@ -74,12 +75,5 @@ namespace ProductoApi.Controllers
             productos.Remove(producto);
             return NoContent();
         }
-    }
-
-    public class Producto
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public double Price { get; set; }
     }
 }

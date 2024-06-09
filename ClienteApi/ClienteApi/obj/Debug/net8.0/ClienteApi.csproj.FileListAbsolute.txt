@@ -30,3 +30,36 @@ D:\Proyectos y Cursos\Integracion de plataforma\ClienteApi\ClienteApi\obj\Debug\
 D:\Proyectos y Cursos\Integracion de plataforma\ClienteApi\ClienteApi\obj\Debug\net8.0\ClienteApi.pdb
 D:\Proyectos y Cursos\Integracion de plataforma\ClienteApi\ClienteApi\obj\Debug\net8.0\ClienteApi.genruntimeconfig.cache
 D:\Proyectos y Cursos\Integracion de plataforma\ClienteApi\ClienteApi\obj\Debug\net8.0\ref\ClienteApi.dll
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\bin\Debug\net8.0\appsettings.json
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\bin\Debug\net8.0\ClienteApi.exe
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\bin\Debug\net8.0\ClienteApi.deps.json
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\bin\Debug\net8.0\ClienteApi.runtimeconfig.json
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\bin\Debug\net8.0\ClienteApi.dll
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\bin\Debug\net8.0\ClienteApi.pdb
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\ClienteApi.csproj.AssemblyReference.cache
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\ClienteApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\ClienteApi.AssemblyInfoInputs.cache
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\ClienteApi.AssemblyInfo.cs
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\ClienteApi.csproj.CoreCompileInputs.cache
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\ClienteApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\ClienteApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\ClienteApi.sourcelink.json
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\staticwebassets\msbuild.ClienteApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\staticwebassets\msbuild.build.ClienteApi.props
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ClienteApi.props
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ClienteApi.props
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\scopedcss\bundle\ClienteApi.styles.css
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\ClienteApi.csproj.Up2Date
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\ClienteApi.dll
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\refint\ClienteApi.dll
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\ClienteApi.pdb
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\ClienteApi.genruntimeconfig.cache
+C:\Users\Black\Desktop\Ev2\IntegracionPlataformaEv2\ClienteApi\ClienteApi\obj\Debug\net8.0\ref\ClienteApi.dll

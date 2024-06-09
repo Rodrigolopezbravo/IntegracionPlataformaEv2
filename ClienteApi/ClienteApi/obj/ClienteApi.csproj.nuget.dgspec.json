@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyectos y Cursos\\Integracion de plataforma\\ClienteApi\\ClienteApi\\ClienteApi.csproj": {}
+    "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\ClienteApi.csproj": {}
   },
   "projects": {
-    "D:\\Proyectos y Cursos\\Integracion de plataforma\\ClienteApi\\ClienteApi\\ClienteApi.csproj": {
+    "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\ClienteApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos y Cursos\\Integracion de plataforma\\ClienteApi\\ClienteApi\\ClienteApi.csproj",
+        "projectUniqueName": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\ClienteApi.csproj",
         "projectName": "ClienteApi",
-        "projectPath": "D:\\Proyectos y Cursos\\Integracion de plataforma\\ClienteApi\\ClienteApi\\ClienteApi.csproj",
+        "projectPath": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\ClienteApi.csproj",
         "packagesPath": "C:\\Users\\Black\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos y Cursos\\Integracion de plataforma\\ClienteApi\\ClienteApi\\obj\\",
+        "outputPath": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config",

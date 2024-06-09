@@ -1,18 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Proyectos y Cursos\\Integracion de plataforma\\ClienteApi\\",
+  "WorkspaceRootPath": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|d:\\proyectos y cursos\\integracion de plataforma\\clienteapi\\clienteapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|solutionrelative:clienteapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|c:\\users\\black\\desktop\\ev2\\integracionplataformaev2\\clienteapi\\clienteapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|solutionrelative:clienteapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|d:\\proyectos y cursos\\integracion de plataforma\\clienteapi\\clienteapi\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|c:\\users\\black\\desktop\\ev2\\integracionplataformaev2\\clienteapi\\clienteapi\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|solutionrelative:clienteapi\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|d:\\proyectos y cursos\\integracion de plataforma\\clienteapi\\clienteapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|solutionrelative:clienteapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|c:\\users\\black\\desktop\\ev2\\integracionplataformaev2\\clienteapi\\clienteapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|solutionrelative:clienteapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|c:\\users\\black\\desktop\\ev2\\integracionplataformaev2\\clienteapi\\clienteapi\\clienteapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|solutionrelative:clienteapi\\clienteapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|c:\\users\\black\\desktop\\ev2\\integracionplataformaev2\\clienteapi\\clienteapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|solutionrelative:clienteapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|c:\\users\\black\\desktop\\ev2\\integracionplataformaev2\\clienteapi\\clienteapi\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|solutionrelative:clienteapi\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|c:\\users\\black\\desktop\\ev2\\integracionplataformaev2\\clienteapi\\clienteapi\\clienteapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DCF4C6E5-F631-458F-932C-F107A132B2AA}|ClienteApi\\ClienteApi.csproj|solutionrelative:clienteapi\\clienteapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +38,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "ClienteApi.http",
+              "DocumentMoniker": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\ClienteApi.http",
+              "RelativeDocumentMoniker": "ClienteApi\\ClienteApi.http",
+              "ToolTip": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\ClienteApi.http",
+              "RelativeToolTip": "ClienteApi\\ClienteApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-06-09T02:09:08.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "ClienteApi\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\Models\\Cliente.cs",
+              "RelativeToolTip": "ClienteApi\\Models\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T02:03:47.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "ClienteApi\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\Models\\Producto.cs",
+              "RelativeToolTip": "ClienteApi\\Models\\Producto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T02:03:40.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClienteApi",
+              "DocumentMoniker": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\ClienteApi.csproj",
+              "RelativeDocumentMoniker": "ClienteApi\\ClienteApi.csproj",
+              "ToolTip": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\ClienteApi.csproj",
+              "RelativeToolTip": "ClienteApi\\ClienteApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-09T02:03:13.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Proyectos y Cursos\\Integracion de plataforma\\ClienteApi\\ClienteApi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\Program.cs",
               "RelativeDocumentMoniker": "ClienteApi\\Program.cs",
-              "ToolTip": "D:\\Proyectos y Cursos\\Integracion de plataforma\\ClienteApi\\ClienteApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\Program.cs",
               "RelativeToolTip": "ClienteApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T23:17:07.714Z",
               "EditorCaption": ""
@@ -41,24 +109,24 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ProductosController.cs",
-              "DocumentMoniker": "D:\\Proyectos y Cursos\\Integracion de plataforma\\ClienteApi\\ClienteApi\\Controllers\\ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\Controllers\\ProductosController.cs",
               "RelativeDocumentMoniker": "ClienteApi\\Controllers\\ProductosController.cs",
-              "ToolTip": "D:\\Proyectos y Cursos\\Integracion de plataforma\\ClienteApi\\ClienteApi\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\Controllers\\ProductosController.cs",
               "RelativeToolTip": "ClienteApi\\Controllers\\ProductosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T23:10:28.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ClientesController.cs",
-              "DocumentMoniker": "D:\\Proyectos y Cursos\\Integracion de plataforma\\ClienteApi\\ClienteApi\\Controllers\\ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\Controllers\\ClientesController.cs",
               "RelativeDocumentMoniker": "ClienteApi\\Controllers\\ClientesController.cs",
-              "ToolTip": "D:\\Proyectos y Cursos\\Integracion de plataforma\\ClienteApi\\ClienteApi\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\Controllers\\ClientesController.cs",
               "RelativeToolTip": "ClienteApi\\Controllers\\ClientesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAAFAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAEQAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T23:05:26.173Z",
               "EditorCaption": ""
