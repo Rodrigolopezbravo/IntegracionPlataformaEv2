@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Ventas</title>
+    <link rel="stylesheet" href="venta.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Ventas</h1>
+        <div class="venta-container">
+            <form id="formVenta" class="venta-form">
+                <div class="form-group">
+                    <label for="selectCliente">Cliente:</label>
+                    <select id="selectCliente" name="cliente">
+                        <option value="">Seleccionar Cliente</option>
+                        <!-- Clientes cargados dinámicamente desde API -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="selectProducto">Producto:</label>
+                    <select id="selectProducto" name="producto">
+                        <option value="">Seleccionar Producto</option>
+                        <!-- Productos cargados dinámicamente desde API -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="selectEnvio">Tipo de Envío:</label>
+                    <select id="selectEnvio" name="envio">
+                        <option value="retiro">Retiro en Sucursal</option>
+                        <option value="despacho">Despacho a Domicilio</option>
+                    </select>
+                </div>
+                <button type="submit">Ver Detalle</button>
+            </form>
+            <div class="detalle-venta">
+                <h2>Detalle de Venta</h2>
+                <div id="clienteDetalle">
+                    <p><strong>Cliente:</strong> </p>
+                    <p><strong>Email:</strong> </p>
+                    <p><strong>Dirección:</strong> </p>
+                </div>
+                <div id="productoDetalle">
+                    <p><strong>Producto:</strong> </p>
+                    <p><strong>Precio:</strong> </p>
+                </div>
+                <div id="tipoEnvio">
+                    <p><strong>Tipo de Envío:</strong> </p>
+                    <p id="mensajeEnvio"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="venta.js"></script>
+</body>
+</html>
