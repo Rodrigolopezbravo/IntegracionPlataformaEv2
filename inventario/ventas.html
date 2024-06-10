@@ -7,23 +7,29 @@
     <link rel="stylesheet" href="venta.css">
 </head>
 <body>
+    <nav class="navbar">
+        <h1>Ferremax</h1>
+    </nav>
+
     <div class="container">
-        <h1>Sistema de Ventas</h1>
+        <h1>Sistema de Ventas</h1>     <button class="venta-button" onclick="window.location.href='index.html'">Inventario</button>
         <div class="venta-container">
             <form id="formVenta" class="venta-form">
                 <div class="form-group">
                     <label for="selectCliente">Cliente:</label>
                     <select id="selectCliente" name="cliente">
                         <option value="">Seleccionar Cliente</option>
-                        <!-- Clientes cargados dinámicamente desde API -->
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="selectProducto">Producto:</label>
                     <select id="selectProducto" name="producto">
                         <option value="">Seleccionar Producto</option>
-                        <!-- Productos cargados dinámicamente desde API -->
                     </select>
+                </div>
+                <div class="form-group">
+                    <label for="cantidadProducto">Cantidad:</label>
+                    <input type="number" id="cantidadProducto" name="cantidad" min="1" value="1">
                 </div>
                 <div class="form-group">
                     <label for="selectEnvio">Tipo de Envío:</label>
@@ -36,20 +42,17 @@
             </form>
             <div class="detalle-venta">
                 <h2>Detalle de Venta</h2>
-                <div id="clienteDetalle">
-                    <p><strong>Cliente:</strong> </p>
-                    <p><strong>Email:</strong> </p>
-                    <p><strong>Dirección:</strong> </p>
-                </div>
-                <div id="productoDetalle">
-                    <p><strong>Producto:</strong> </p>
-                    <p><strong>Precio:</strong> </p>
-                </div>
+                <div id="clienteDetalle"></div>
+                <div id="productoDetalle"></div>
                 <div id="tipoEnvio">
-                    <p><strong>Tipo de Envío:</strong> </p>
                     <p id="mensajeEnvio"></p>
                 </div>
+                <button id="finalizarVenta">Finalizar Venta</button>
             </div>
+        </div>
+        <div class="ventas-realizadas">
+            <h2>Ventas Realizadas</h2>
+            <div id="listaVentas" class="lista-ventas"></div>
         </div>
     </div>
     <script src="venta.js"></script>

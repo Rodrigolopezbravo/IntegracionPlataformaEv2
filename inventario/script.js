@@ -1,6 +1,22 @@
 document.addEventListener('DOMContentLoaded', function() {
     obtenerClientes();
     obtenerProductos();
+
+    document.getElementById('form-cliente').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const nombre = document.getElementById('nombre-cliente').value;
+        const email = document.getElementById('email-cliente').value;
+        const direccion = document.getElementById('direccion-cliente').value;
+        agregarCliente(nombre, email, direccion);
+    });
+
+    document.getElementById('form-producto').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const nombre = document.getElementById('nombre-producto').value;
+        const precio = document.getElementById('precio-producto').value;
+        const stock = document.getElementById('stock-producto').value;
+        agregarProducto(nombre, precio, stock);
+    });
 });
 
 // Función para obtener y mostrar clientes
@@ -48,7 +64,6 @@ function agregarCliente(nombre, email, direccion) {
     .then(data => {
         console.log('Cliente agregado:', data);
         obtenerClientes(); // Actualizar la lista de clientes después de agregar uno nuevo
-        ocultarFormularioCliente();
     })
     .catch(error => console.error('Error al agregar cliente:', error));
 }
@@ -67,27 +82,6 @@ function eliminarCliente(idCliente) {
         }
     })
     .catch(error => console.error('Error al eliminar cliente:', error));
-}
-
-// Función para mostrar el formulario de agregar cliente
-function mostrarFormularioCliente() {
-    const formularioCliente = document.getElementById('formulario-cliente');
-    formularioCliente.classList.remove('hidden');
-
-    const formCliente = document.getElementById('form-cliente');
-    formCliente.addEventListener('submit', function(event) {
-        event.preventDefault();
-        const nombre = document.getElementById('nombre-cliente').value;
-        const email = document.getElementById('email-cliente').value;
-        const direccion = document.getElementById('direccion-cliente').value;
-        agregarCliente(nombre, email, direccion);
-    });
-}
-
-// Función para ocultar el formulario de agregar cliente
-function ocultarFormularioCliente() {
-    const formularioCliente = document.getElementById('formulario-cliente');
-    formularioCliente.classList.add('hidden');
 }
 
 // Función para obtener y mostrar productos
@@ -135,7 +129,6 @@ function agregarProducto(nombre, precio, stock) {
     .then(data => {
         console.log('Producto agregado:', data);
         obtenerProductos(); // Actualizar la lista de productos después de agregar uno nuevo
-        ocultarFormularioProducto();
     })
     .catch(error => console.error('Error al agregar producto:', error));
 }
@@ -154,25 +147,4 @@ function eliminarProducto(idProducto) {
         }
     })
     .catch(error => console.error('Error al eliminar producto:', error));
-}
-
-// Función para mostrar el formulario de agregar producto
-function mostrarFormularioProducto() {
-    const formularioProducto = document.getElementById('formulario-producto');
-    formularioProducto.classList.remove('hidden');
-
-    const formProducto = document.getElementById('form-producto');
-    formProducto.addEventListener('submit', function(event) {
-        event.preventDefault();
-        const nombre = document.getElementById('nombre-producto').value;
-        const precio = document.getElementById('precio-producto').value;
-        const stock = document.getElementById('stock-producto').value;
-        agregarProducto(nombre, precio, stock);
-    });
-}
-
-// Función para ocultar el formulario de agregar producto
-function ocultarFormularioProducto() {
-    const formularioProducto = document.getElementById('formulario-producto');
-    formularioProducto.classList.add('hidden');
 }

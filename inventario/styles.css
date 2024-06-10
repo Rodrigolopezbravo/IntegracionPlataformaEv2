@@ -1,9 +1,22 @@
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), rgba(240, 240, 240, 0.8)), url('https://image.shutterstock.com/image-photo/tools-construction-site-sunset-background-260nw-1252300994.jpg') no-repeat center center fixed;
+    background-size: cover;
     margin: 0;
     padding: 0;
+}
+
+.navbar {
+    background-color: #e53935;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
 }
 
 .container {
@@ -12,7 +25,7 @@ body {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
@@ -24,84 +37,75 @@ h1, h2, h3 {
     margin-top: 20px;
 }
 
-/* Estilos para los elementos de cliente y producto */
 .cliente-item, .producto-item {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     padding: 15px;
     margin-bottom: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 4px;
 }
 
-.cliente-item h3, .producto-item h3 {
-    margin-top: 0;
-    color: #555;
+button {
+    background-color: #e53935;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-.cliente-item p, .producto-item p {
-    margin: 5px 0;
-    color: #777;
+button:hover {
+    background-color: #c62828;
 }
 
-/* Estilos para formularios */
-.form-container {
-    margin-top: 20px;
+.hidden {
+    display: none;
+}
+
+.form-container-wrapper {
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
-    border: 1px solid #ddd;
+}
+
+.form-container {
+    flex: 1;
+    margin-right: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
     border-radius: 8px;
-    background-color: #f9f9f9;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.form-container h2 {
-    margin-top: 0;
-    color: #333;
+.form-container:last-child {
+    margin-right: 0;
 }
 
-.form-container input[type=text], 
-.form-container input[type=email],
-.form-container input[type=number] {
+input[type="text"],
+input[type="email"],
+input[type="number"] {
     width: calc(100% - 20px);
     padding: 10px;
-    margin: 10px 0;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
-.form-container button[type=submit], 
-.form-container button[type=button] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.form-container button[type=submit]:hover, 
-.form-container button[type=button]:hover {
-    background-color: #45a049;
-}
-
-/* Estilos para botones de eliminar */
-.cliente-item button, .producto-item button {
-    background-color: #f44336;
-    color: white;
-    border: none;
-    padding: 8px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
-    margin-top: 10px;
-}
-
-.cliente-item button:hover, .producto-item button:hover {
+.venta-button {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
     background-color: #e53935;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-/* Estilos para el contenedor principal */
-body {
-    background-image: linear-gradient(to bottom right, #ffffff, #f0f0f0);
+.venta-button:hover {
+    background-color: #c62828;
 }
