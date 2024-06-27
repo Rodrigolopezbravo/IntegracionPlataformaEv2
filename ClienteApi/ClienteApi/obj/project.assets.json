@@ -428,19 +428,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Black\\.nuget\\packages\\": {}
+    "C:\\Users\\nicoc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\ClienteApi.csproj",
+      "projectUniqueName": "C:\\Users\\nicoc\\Documents\\GitHub\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\ClienteApi.csproj",
       "projectName": "ClienteApi",
-      "projectPath": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\ClienteApi.csproj",
-      "packagesPath": "C:\\Users\\Black\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Black\\Desktop\\Ev2\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\obj\\",
+      "projectPath": "C:\\Users\\nicoc\\Documents\\GitHub\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\ClienteApi.csproj",
+      "packagesPath": "C:\\Users\\nicoc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nicoc\\Documents\\GitHub\\IntegracionPlataformaEv2\\ClienteApi\\ClienteApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nicoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

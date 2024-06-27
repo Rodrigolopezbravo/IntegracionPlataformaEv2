@@ -159,3 +159,22 @@ button[type="submit"]:hover,
 .venta-button:hover {
     background-color: #c62828;
 }
+
+.carousel {
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 1s ease;
+}
+
+.carousel-images img {
+    width: 100%;
+    flex-shrink: 0;
+}

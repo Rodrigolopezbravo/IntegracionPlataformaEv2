@@ -148,3 +148,18 @@ function eliminarProducto(idProducto) {
     })
     .catch(error => console.error('Error al eliminar producto:', error));
 }
+
+const carouselImages = document.querySelector('.carousel-images');
+const images = document.querySelectorAll('.carousel-images img');
+let index = 0;
+
+function nextImage() {
+    index++;
+    if (index >= images.length) {
+        index = 0;
+    }
+    carouselImages.style.transform = `translateX(${-index * 100}%)`;
+}
+
+setInterval(nextImage, 7000);
+
