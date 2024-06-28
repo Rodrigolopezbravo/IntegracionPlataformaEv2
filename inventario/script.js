@@ -86,7 +86,7 @@ function eliminarCliente(idCliente) {
 
 // Función para obtener y mostrar productos
 function obtenerProductos() {
-    fetch('https://localhost:7103/api/Productos')
+    fetch('https://apicsharp-ferremax.azurewebsites.net/api/Productos/')
         .then(response => response.json())
         .then(data => mostrarProductos(data))
         .catch(error => console.error('Error al obtener productos:', error));
@@ -118,7 +118,7 @@ function agregarProducto(nombre, precio, stock) {
         stock: parseInt(stock)
     };
 
-    fetch('https://localhost:7103/api/Productos', {
+    fetch('https://apicsharp-ferremax.azurewebsites.net/api/Productos/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -135,7 +135,7 @@ function agregarProducto(nombre, precio, stock) {
 
 // Función para eliminar un producto por ID
 function eliminarProducto(idProducto) {
-    fetch(`https://localhost:7103/api/Productos/${idProducto}`, {
+    fetch(`https://apicsharp-ferremax.azurewebsites.net/api/Productos/${idProducto}`, {
         method: 'DELETE'
     })
     .then(response => {
