@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Función para obtener y mostrar clientes
 function obtenerClientes() {
-    fetch('https://localhost:7103/api/Clientes')
+    fetch('https://apicsharp-ferremax.azurewebsites.net/api/clientes/')
         .then(response => response.json())
         .then(data => mostrarClientes(data))
         .catch(error => console.error('Error al obtener clientes:', error));
@@ -53,7 +53,7 @@ function agregarCliente(nombre, email, direccion) {
         direction: direccion
     };
 
-    fetch('https://localhost:7103/api/Clientes', {
+    fetch('https://apicsharp-ferremax.azurewebsites.net/api/clientes/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -70,7 +70,7 @@ function agregarCliente(nombre, email, direccion) {
 
 // Función para eliminar un cliente por ID
 function eliminarCliente(idCliente) {
-    fetch(`https://localhost:7103/api/Clientes/${idCliente}`, {
+    fetch(`https://apicsharp-ferremax.azurewebsites.net/api/clientes/${idCliente}`, {
         method: 'DELETE'
     })
     .then(response => {
